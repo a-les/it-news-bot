@@ -174,19 +174,20 @@ async def scheduled_broadcast():
 async def main():
     init_db()
 
-    # Запуск легкого health-check сервера для Render/облака
+    # Запуск легкого health-check сервера для Render.com
     port = os.getenv("PORT")
     if port:
         async def handle_ping(request):
-            return web.Response(text="Bot is running!")
+            return web.Response(text="IT Mentor Bot is running 24/7!")
 
         app = web.Application()
         app.router.add_get("/", handle_ping)
+        app.router.add_get("/health", handle_ping)
         runner = web.AppRunner(app)
         await runner.setup()
         site = web.TCPSite(runner, "0.0.0.0", int(port))
         await site.start()
-        logger.info(f"Health-check веб-сервер запущен на порту {port}")
+        logger.info(f"Healthcheck веб-сервер запущен на порту {port}")
 
     # Настройка планировщика (утро и вечер)
     scheduler.add_job(

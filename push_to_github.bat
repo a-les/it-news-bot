@@ -1,9 +1,6 @@
 @echo off
-chcp 65001 > nul
-echo Отправка обновлений в GitHub...
 cd /d "%~dp0"
-git add .
-git commit -m "update bot"
-git push -u origin master
-echo Готово!
+set HTTP_PROXY=http://127.0.0.1:10809
+set HTTPS_PROXY=http://127.0.0.1:10809
+"C:\Program Files\Git\cmd\git.exe" push -u origin main
 pause
