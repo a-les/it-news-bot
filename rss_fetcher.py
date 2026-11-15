@@ -120,12 +120,24 @@ def fetch_curated_digest_candidates() -> Dict[str, List[Dict[str, Any]]]:
         use_proxy=True
     ))
 
-    # 3. Кибербезопасность
+    # 3. Кибербезопасность, Сети и VPN
     candidates["sec"].extend(fetch_feed_articles(
         "https://feeds.feedburner.com/TheHackersNews",
         "The Hacker News",
         "🛡️ Кибербезопасность",
         use_proxy=True
+    ))
+    candidates["sec"].extend(fetch_feed_articles(
+        "https://www.bleepingcomputer.com/feed/",
+        "BleepingComputer",
+        "🛡️ Кибербезопасность и Уязвимости",
+        use_proxy=True
+    ))
+    candidates["sec"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/hub/network_technologies/top/daily/?fl=ru",
+        "Хабр Сети и VPN (Топ)",
+        "🌐 Сети, VPN и Протоколы",
+        use_proxy=False
     ))
     candidates["sec"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/hub/infosecurity/top/daily/?fl=ru",
@@ -134,11 +146,17 @@ def fetch_curated_digest_candidates() -> Dict[str, List[Dict[str, Any]]]:
         use_proxy=False
     ))
 
-    # 4. Инженерия и Архитектура
+    # 4. Инженерия, Архитектура и Топ инструментов
     candidates["eng"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/articles/top/daily/?fl=ru",
         "Хабр Лучшее (Сутки)",
         "🛠️ Инженерия и Архитектура",
+        use_proxy=False
+    ))
+    candidates["eng"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/hub/programming/top/daily/?fl=ru",
+        "Хабр Разработка и Софт",
+        "🛠️ Инструменты и Разработка",
         use_proxy=False
     ))
     candidates["eng"].extend(fetch_feed_articles(

@@ -7,11 +7,12 @@ from database import init_db, mark_news_sent
 from rss_fetcher import fetch_curated_digest_candidates
 from ai_mentor import AIMentor
 
-# Чат пользователя (по умолчанию ваш ID, или из переменной окружения)
+# Чат пользователя и токен
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "1057904544")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", TELEGRAM_BOT_TOKEN or "9155029014:AAETCDEMtlkKdMc0QSENk71KnWF_1Z6J2wc")
 
 def send_telegram_message(text: str) -> bool:
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
         "text": text,
@@ -34,9 +35,9 @@ def run_digest():
 
     pillars = [
         ("fire", "🔥 Главное событие в мировом IT"),
-        ("ai", "🤖 ИИ-агенты и технологии"),
-        ("sec", "🛡️ Кибербезопасность"),
-        ("eng", "🛠️ Инженерия и Архитектура")
+        ("ai", "🤖 ИИ: Модели, Агенты и Бенчмарки"),
+        ("sec", "🛡️ Сети, VPN и Кибербезопасность"),
+        ("eng", "🛠️ Инженерия, Софт и Архитектура")
     ]
 
     sent_count = 0
