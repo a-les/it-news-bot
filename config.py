@@ -13,10 +13,10 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 HTTP_PROXY = os.getenv("HTTP_PROXY", "").strip()
 HTTPS_PROXY = os.getenv("HTTPS_PROXY", "").strip()
 
-# Digest settings
-MORNING_HOUR = int(os.getenv("MORNING_HOUR", "9"))
+# Digest settings (UTC+6)
+MORNING_HOUR = int(os.getenv("MORNING_HOUR", "7"))
 EVENING_HOUR = int(os.getenv("EVENING_HOUR", "19"))
-NEWS_PER_DIGEST = int(os.getenv("NEWS_PER_DIGEST", "4"))
+NEWS_PER_DIGEST = int(os.getenv("NEWS_PER_DIGEST", "5"))
 
 # RSS Feeds to monitor
 RSS_FEEDS = [
