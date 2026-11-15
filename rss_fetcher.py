@@ -90,80 +90,84 @@ def fetch_feed_articles(feed_url: str, source_name: str, category_name: str, use
 
 def fetch_curated_digest_candidates() -> Dict[str, List[Dict[str, Any]]]:
     """
-    Собирает кандидатов по 4 столпам IT:
-    1. fire: Главное мировое событие
-    2. ai: ИИ-агенты и технологии
-    3. sec: Кибербезопасность
-    4. eng: Инженерия и Архитектура
+    Собирает кандидатов по 5 столпам:
+    1. fire: 🔥 Главное мировое IT-событие (Hacker News)
+    2. ai: 🤖 ИИ: Сравнения моделей, бенчмарки и Агенты
+    3. vpn: 🌐 Сети, VPN и приватность (VLESS, Shadowsocks, WireGuard, DPI)
+    4. sec: 🛡️ Кибербезопасность (Zero-day, эксплоиты, атаки)
+    5. tools: 🛠️ Топы инструментов, полезный софт и Архитектура
     """
     candidates = {
         "fire": [],
         "ai": [],
+        "vpn": [],
         "sec": [],
-        "eng": []
+        "tools": []
     }
 
-    # 1. Главное событие
-    candidates["fire"].extend(fetch_hn_top())
+    # 1. 🔥 Главное мировое IT-событие (Hacker News points > 100)
+    candidates["fire"].extend(fetch_hn_top()[:6])
 
-    # 2. ИИ-агенты и нейросети
+    # 2. 🤖 ИИ: Сравнения моделей, бенчмарки и Агенты
     candidates["ai"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/hub/artificial_intelligence/top/daily/?fl=ru",
         "Хабр ИИ (Топ)",
-        "🤖 ИИ-агенты и технологии",
+        "🤖 ИИ: Модели, Бенчмарки и Агенты",
         use_proxy=False
-    ))
+    )[:5])
     candidates["ai"].extend(fetch_feed_articles(
         "https://simonwillison.net/atom/everything/",
         "Simon Willison AI",
-        "🤖 ИИ-агенты и технологии",
+        "🤖 Практический AI и LLM",
         use_proxy=True
-    ))
+    )[:5])
 
-    # 3. Кибербезопасность, Сети и VPN
+    # 3. 🌐 Сети, VPN и приватность (VLESS, WireGuard, обход DPI)
+    candidates["vpn"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/hub/network_technologies/top/daily/?fl=ru",
+        "Хабр Сети и VPN",
+        "🌐 Сети, VPN и Протоколы",
+        use_proxy=False
+    )[:6])
+
+    # 4. 🛡️ Кибербезопасность (Zero-day, уязвимости, взломы)
     candidates["sec"].extend(fetch_feed_articles(
         "https://feeds.feedburner.com/TheHackersNews",
         "The Hacker News",
         "🛡️ Кибербезопасность",
         use_proxy=True
-    ))
+    )[:4])
     candidates["sec"].extend(fetch_feed_articles(
         "https://www.bleepingcomputer.com/feed/",
         "BleepingComputer",
-        "🛡️ Кибербезопасность и Уязвимости",
+        "🛡️ Кибербезопасность и Эксплоиты",
         use_proxy=True
-    ))
-    candidates["sec"].extend(fetch_feed_articles(
-        "https://habr.com/ru/rss/hub/network_technologies/top/daily/?fl=ru",
-        "Хабр Сети и VPN (Топ)",
-        "🌐 Сети, VPN и Протоколы",
-        use_proxy=False
-    ))
+    )[:4])
     candidates["sec"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/hub/infosecurity/top/daily/?fl=ru",
         "Хабр ИБ (Топ)",
         "🛡️ Кибербезопасность",
         use_proxy=False
-    ))
+    )[:4])
 
-    # 4. Инженерия, Архитектура и Топ инструментов
-    candidates["eng"].extend(fetch_feed_articles(
+    # 5. 🛠️ Топы инструментов, полезный софт и Архитектура
+    candidates["tools"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/hub/programming/top/daily/?fl=ru",
+        "Хабр Разработка",
+        "🛠️ Топ инструментов и Софт",
+        use_proxy=False
+    )[:4])
+    candidates["tools"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/hub/devops/top/daily/?fl=ru",
+        "Хабр DevOps",
+        "🛠️ DevOps и Архитектура",
+        use_proxy=False
+    )[:4])
+    candidates["tools"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/articles/top/daily/?fl=ru",
         "Хабр Лучшее (Сутки)",
-        "🛠️ Инженерия и Архитектура",
+        "🛠️ Системный дизайн и Инженерия",
         use_proxy=False
-    ))
-    candidates["eng"].extend(fetch_feed_articles(
-        "https://habr.com/ru/rss/hub/programming/top/daily/?fl=ru",
-        "Хабр Разработка и Софт",
-        "🛠️ Инструменты и Разработка",
-        use_proxy=False
-    ))
-    candidates["eng"].extend(fetch_feed_articles(
-        "https://habr.com/ru/rss/hub/devops/top/daily/?fl=ru",
-        "Хабр DevOps (Топ)",
-        "🛠️ Инженерия и Архитектура",
-        use_proxy=False
-    ))
+    )[:4])
 
     return candidates

@@ -4,11 +4,8 @@ from google import genai
 from config import GEMINI_API_KEY
 
 MODELS_TO_TRY = [
-    "gemini-3.8-flash",
-    "gemini-3-flash-preview",
-    "gemini-flash-latest",
-    "gemini-3.1-flash-lite",
-    "gemini-2.5-flash-lite"
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-flash"
 ]
 
 class AIMentor:
