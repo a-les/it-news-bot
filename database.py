@@ -1,8 +1,13 @@
 import sqlite3
 from datetime import datetime
-from config import DB_PATH
+from pathlib import Path
+from config import DB_PATH, BASE_DIR
+
+SENT_FILE = BASE_DIR / "sent_urls.txt"
 
 def init_db():
+    if not SENT_FILE.exists():
+        SENT_FILE.touch()
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute("""
@@ -48,16 +53,33 @@ def get_active_subscribers():
         return [r[0] for r in rows]
 
 def is_news_sent(url: str) -> bool:
+    clean_url = url.strip()
+    if SENT_FILE.exists():
+        try:
+            with open(SENT_FILE, "r", encoding="utf-8") as f:
+                content = f.read()
+                if clean_url in content:
+                    return True
+        except Exception:
+            pass
+
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT 1 FROM sent_news WHERE url = ?", (url.strip(),))
+        cursor.execute("SELECT 1 FROM sent_news WHERE url = ?", (clean_url,))
         return cursor.fetchone() is not None
 
 def mark_news_sent(url: str, title: str):
+    clean_url = url.strip()
+    try:
+        with open(SENT_FILE, "a", encoding="utf-8") as f:
+            f.write(f"{clean_url}\n")
+    except Exception:
+        pass
+
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute("""
             INSERT OR IGNORE INTO sent_news (url, title, sent_at)
             VALUES (?, ?, ?)
-        """, (url.strip(), title.strip(), datetime.now()))
+        """, (clean_url, title.strip(), datetime.now()))
         conn.commit()
