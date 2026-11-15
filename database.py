@@ -45,12 +45,17 @@ def set_subscriber_status(chat_id: int, active: bool):
         cursor.execute("UPDATE subscribers SET active = ? WHERE chat_id = ?", (1 if active else 0, chat_id))
         conn.commit()
 
+DEFAULT_CHAT_ID = int(os.getenv("TELEGRAM_CHAT_ID", "1057904544"))
+
 def get_active_subscribers():
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute("SELECT chat_id FROM subscribers WHERE active = 1")
         rows = cursor.fetchall()
-        return [r[0] for r in rows]
+        subs = set([r[0] for r in rows])
+        if DEFAULT_CHAT_ID:
+            subs.add(DEFAULT_CHAT_ID)
+        return list(subs)
 
 def is_news_sent(url: str) -> bool:
     clean_url = url.strip()

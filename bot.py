@@ -34,7 +34,10 @@ from ai_mentor import AIMentor
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-# Прокси для стабильного соединения с api.telegram.org
+# Временная зона пользователя (UTC+6)
+BOT_TIMEZONE = os.getenv("BOT_TIMEZONE", "Etc/GMT-6")
+
+# Прокси для стабильного соединения с api.telegram.org (если запускается локально)
 proxy_url = HTTPS_PROXY or HTTP_PROXY
 session = AiohttpSession(proxy=proxy_url) if proxy_url else None
 
@@ -44,7 +47,7 @@ bot = Bot(
     default=DefaultBotProperties(parse_mode=ParseMode.HTML)
 )
 dp = Dispatcher()
-scheduler = AsyncIOScheduler()
+scheduler = AsyncIOScheduler(timezone=BOT_TIMEZONE)
 mentor = AIMentor()
 
 # Меню кнопок
@@ -189,12 +192,13 @@ async def main():
         await site.start()
         logger.info(f"Healthcheck веб-сервер запущен на порту {port}")
 
-    # Настройка планировщика (утро и вечер)
+    # Настройка планировщика (утро и вечер по часовому поясу пользователя)
     scheduler.add_job(
         scheduled_broadcast,
         trigger="cron",
         hour=MORNING_HOUR,
         minute=0,
+        timezone=BOT_TIMEZONE,
         id="morning_digest"
     )
     scheduler.add_job(
@@ -202,10 +206,11 @@ async def main():
         trigger="cron",
         hour=EVENING_HOUR,
         minute=0,
+        timezone=BOT_TIMEZONE,
         id="evening_digest"
     )
     scheduler.start()
-    logger.info(f"Планировщик запущен: рассылки в {MORNING_HOUR:02d}:00 и {EVENING_HOUR:02d}:00")
+    logger.info(f"Планировщик запущен: рассылки в {MORNING_HOUR:02d}:00 и {EVENING_HOUR:02d}:00 ({BOT_TIMEZONE})")
 
     logger.info("Бот запущен и ожидает сообщений...")
     await bot.delete_webhook(drop_pending_updates=True)

@@ -11,3 +11,9 @@ https://habr.com/ru/articles/1107894/?utm_campaign=1107894&utm_source=habrahabr&
 https://habr.com/ru/companies/timeweb/articles/1106410/?utm_campaign=1106410&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
 https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247
+https://www.spacex.com/launches/starship-flight-15
+https://www.crissyfield.de/research/lovable-en/
+https://habr.com/ru/companies/ruvds/articles/1101042/?utm_campaign=1101042&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1105054/?utm_campaign=1105054&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
+https://habr.com/ru/companies/timeweb/articles/1106410/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1106410
