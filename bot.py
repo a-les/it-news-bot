@@ -192,6 +192,15 @@ async def main():
         await site.start()
         logger.info(f"Healthcheck веб-сервер запущен на порту {port}")
 
+    # Тестовый триггер на 11:10 для быстрой проверки
+    scheduler.add_job(
+        scheduled_broadcast,
+        trigger="cron",
+        hour=11,
+        minute=10,
+        timezone=BOT_TIMEZONE,
+        id="test_digest_1110"
+    )
     # Настройка планировщика (утро и вечер по часовому поясу пользователя)
     scheduler.add_job(
         scheduled_broadcast,
