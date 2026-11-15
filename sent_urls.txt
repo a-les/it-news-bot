@@ -17,3 +17,11 @@ https://habr.com/ru/companies/ruvds/articles/1101042/?utm_campaign=1101042&utm_s
 https://habr.com/ru/articles/1105054/?utm_campaign=1105054&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
 https://habr.com/ru/companies/timeweb/articles/1106410/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1106410
+https://jakub.jankiewicz.org/blog/ai-code-open-source/
+https://habr.com/ru/companies/selectel/articles/1103502/?utm_campaign=1103502&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/selectel/articles/1106194/?utm_campaign=1106194&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/selectel/articles/1107570/?utm_campaign=1107570&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1104904/?utm_campaign=1104904&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html
+https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+https://habr.com/ru/articles/1107692/?utm_campaign=1107692&utm_source=habrahabr&utm_medium=rss
