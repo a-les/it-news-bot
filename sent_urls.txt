@@ -68,3 +68,9 @@ https://habr.com/ru/articles/1106276/?utm_campaign=1106276&utm_source=habrahabr&
 https://habr.com/ru/articles/1106456/?utm_campaign=1106456&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html
 https://habr.com/ru/articles/1108452/?utm_campaign=1108452&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1108440/?utm_campaign=1108440&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/timeweb/articles/1103622/?utm_campaign=1103622&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1108110/?utm_campaign=1108110&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html
+https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html
+https://habr.com/ru/companies/bothub/articles/1108490/?utm_campaign=1108490&utm_source=habrahabr&utm_medium=rss
