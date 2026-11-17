@@ -74,3 +74,14 @@ https://habr.com/ru/articles/1108110/?utm_campaign=1108110&utm_source=habrahabr&
 https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html
 https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html
 https://habr.com/ru/companies/bothub/articles/1108490/?utm_campaign=1108490&utm_source=habrahabr&utm_medium=rss
+https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html
+https://openai.com/index/introducing-gpt-6-2-astra-sol/
+https://developer.apple.com/system-status/
+https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down
+https://habr.com/ru/companies/yandex/articles/1105352/?utm_campaign=1105352&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1108824/?utm_campaign=1108824&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1107662/?utm_campaign=1107662&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
+https://habr.com/ru/companies/pvs-studio/articles/1106470/?utm_campaign=1106470&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1106886/?utm_campaign=1106886&utm_source=habrahabr&utm_medium=rss
+https://runta.com/blog/introducing-frontierharness-eval-v1-1/
