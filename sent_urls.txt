@@ -90,3 +90,10 @@ https://habr.com/ru/articles/1108804/?utm_campaign=1108804&utm_source=habrahabr&
 https://habr.com/ru/articles/1107784/?utm_campaign=1107784&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html
 https://habr.com/ru/companies/ru_mts/articles/1108618/?utm_campaign=1108618&utm_source=habrahabr&utm_medium=rss
+https://blog.cloudflare.com/quad9-withdrawal-from-france/
+https://habr.com/ru/companies/selectel/articles/1108608/?utm_campaign=1108608&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1107866/?utm_campaign=1107866&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1107220/?utm_campaign=1107220&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/sberbank/articles/1103108/?utm_campaign=1103108&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
+https://habr.com/ru/companies/h3llo_cloud/articles/1105992/?utm_campaign=1105992&utm_source=habrahabr&utm_medium=rss
