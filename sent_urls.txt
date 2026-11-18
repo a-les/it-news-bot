@@ -85,3 +85,8 @@ https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html
 https://habr.com/ru/companies/pvs-studio/articles/1106470/?utm_campaign=1106470&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/articles/1106886/?utm_campaign=1106886&utm_source=habrahabr&utm_medium=rss
 https://runta.com/blog/introducing-frontierharness-eval-v1-1/
+https://calif.io/java4shell/
+https://habr.com/ru/articles/1108804/?utm_campaign=1108804&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1107784/?utm_campaign=1107784&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html
+https://habr.com/ru/companies/ru_mts/articles/1108618/?utm_campaign=1108618&utm_source=habrahabr&utm_medium=rss
