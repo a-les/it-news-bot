@@ -106,3 +106,10 @@ https://habr.com/ru/companies/jetinfosystems/articles/1108730/?utm_campaign=1108
 https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
 https://habr.com/ru/articles/1107946/?utm_campaign=1107946&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/companies/haulmont/articles/1108864/?utm_campaign=1108864&utm_source=habrahabr&utm_medium=rss
+https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
+https://habr.com/ru/articles/1107234/?utm_campaign=1107234&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/ruvds/articles/1106680/?utm_campaign=1106680&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/selectel/articles/1108698/?utm_campaign=1108698&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1108020/?utm_campaign=1108020&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
+https://habr.com/ru/companies/selectel/articles/1108252/?utm_campaign=1108252&utm_source=habrahabr&utm_medium=rss
