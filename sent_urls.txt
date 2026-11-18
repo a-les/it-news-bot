@@ -97,3 +97,12 @@ https://habr.com/ru/articles/1107220/?utm_campaign=1107220&utm_source=habrahabr&
 https://habr.com/ru/companies/sberbank/articles/1103108/?utm_campaign=1103108&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
 https://habr.com/ru/companies/h3llo_cloud/articles/1105992/?utm_campaign=1105992&utm_source=habrahabr&utm_medium=rss
+https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf
+https://revscope.co/blog/search-seo-geo-2026/
+https://nicolasbouliane.com/blog/death-by-ai
+https://phrack.org/issues/73/introduction_md
+https://habr.com/ru/articles/1108150/?utm_campaign=1108150&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/jetinfosystems/articles/1108730/?utm_campaign=1108730&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
+https://habr.com/ru/articles/1107946/?utm_campaign=1107946&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/haulmont/articles/1108864/?utm_campaign=1108864&utm_source=habrahabr&utm_medium=rss
