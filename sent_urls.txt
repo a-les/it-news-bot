@@ -113,3 +113,9 @@ https://habr.com/ru/companies/selectel/articles/1108698/?utm_campaign=1108698&ut
 https://habr.com/ru/articles/1108020/?utm_campaign=1108020&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
 https://habr.com/ru/companies/selectel/articles/1108252/?utm_campaign=1108252&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1109028/?utm_campaign=1109028&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1107896/?utm_campaign=1107896&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/x-com/articles/1107036/?utm_campaign=1107036&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html
+https://habr.com/ru/companies/domclick/articles/1099364/?utm_campaign=1099364&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/netologyru/articles/1078558/?utm_campaign=1078558&utm_source=habrahabr&utm_medium=rss
