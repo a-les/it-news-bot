@@ -1,12 +1,8 @@
 name: IT Mentor News Digest
 
 on:
-  schedule:
-    # 01:00 UTC = 07:00 UTC+6 (утренний выпуск)
-    - cron: '0 1 * * *'
-    # 13:00 UTC = 19:00 UTC+6 (вечерний выпуск)
-    - cron: '0 13 * * *'
-  # Кнопка ручного запуска прямо в интерфейсе GitHub
+  # Запуск строго через cron-job.org в 07:00 и 19:00 (без задержек очередей GitHub)
+  # и ручная кнопка запуска в интерфейсе GitHub
   workflow_dispatch:
 
 permissions:

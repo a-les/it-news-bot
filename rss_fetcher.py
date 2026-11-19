@@ -105,10 +105,28 @@ def fetch_curated_digest_candidates() -> Dict[str, List[Dict[str, Any]]]:
         "tools": []
     }
 
-    # 1. 🔥 Главное мировое IT-событие (Hacker News points > 100)
-    candidates["fire"].extend(fetch_hn_top()[:6])
+    # 1. 🔥 Главное мировое IT-событие & Индустрия (HN, Хабр Новости, iXBT)
+    candidates["fire"].extend(fetch_hn_top()[:5])
+    candidates["fire"].extend(fetch_feed_articles(
+        "https://habr.com/ru/rss/news/top/daily/?fl=ru",
+        "Хабр Новости",
+        "🔥 Главное событие в мировом IT",
+        use_proxy=False
+    )[:5])
+    candidates["fire"].extend(fetch_feed_articles(
+        "https://www.ixbt.com/export/news.rss",
+        "iXBT.com",
+        "🔥 Технологии и Индустрия",
+        use_proxy=False
+    )[:5])
 
-    # 2. 🤖 ИИ: Сравнения моделей, бенчмарки и Агенты
+    # 2. 🤖 ИИ: Сравнения моделей, критика, бенчмарки и Агенты (Tproger, Хабр, Simon)
+    candidates["ai"].extend(fetch_feed_articles(
+        "https://tproger.ru/feed/",
+        "Tproger",
+        "🤖 ИИ: Разборы, Критика и Практика",
+        use_proxy=False
+    )[:5])
     candidates["ai"].extend(fetch_feed_articles(
         "https://habr.com/ru/rss/hub/artificial_intelligence/top/daily/?fl=ru",
         "Хабр ИИ (Топ)",
@@ -120,7 +138,7 @@ def fetch_curated_digest_candidates() -> Dict[str, List[Dict[str, Any]]]:
         "Simon Willison AI",
         "🤖 Практический AI и LLM",
         use_proxy=True
-    )[:5])
+    )[:4])
 
     # 3. 🌐 Сети, VPN и приватность (VLESS, WireGuard, обход DPI)
     candidates["vpn"].extend(fetch_feed_articles(
