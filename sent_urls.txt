@@ -119,3 +119,12 @@ https://habr.com/ru/companies/x-com/articles/1107036/?utm_campaign=1107036&utm_s
 https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html
 https://habr.com/ru/companies/domclick/articles/1099364/?utm_campaign=1099364&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/companies/netologyru/articles/1078558/?utm_campaign=1078558&utm_source=habrahabr&utm_medium=rss
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+https://www.inside-db.com/
+https://microsoft.ai/news/microsoft-ignite-2026/
+https://habr.com/ru/companies/domate/articles/1107292/?utm_campaign=1107292&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/ru_mts/articles/1107236/?utm_campaign=1107236&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1109592/?utm_campaign=1109592&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html
+https://habr.com/ru/specials/1109296/?utm_campaign=1109296&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/selectel/articles/1109694/?utm_campaign=1109694&utm_source=habrahabr&utm_medium=rss
