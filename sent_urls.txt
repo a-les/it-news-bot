@@ -128,3 +128,9 @@ https://habr.com/ru/articles/1109592/?utm_campaign=1109592&utm_source=habrahabr&
 https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html
 https://habr.com/ru/specials/1109296/?utm_campaign=1109296&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/companies/selectel/articles/1109694/?utm_campaign=1109694&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/ru_mts/articles/1107090/?utm_campaign=1107090&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/selectel/articles/1106976/?utm_campaign=1106976&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/ozontech/articles/1108928/?utm_campaign=1108928&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/rt-dc/articles/1108976/?utm_campaign=1108976&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/everything-is-web-application-including.html
+https://habr.com/ru/articles/1109494/?utm_campaign=1109494&utm_source=habrahabr&utm_medium=rss
