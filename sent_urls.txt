@@ -139,3 +139,10 @@ https://tproger.ru/news/model-gestalt-obowla-lyudej-i-claude-fable-5-2-v-slepom-
 https://habr.com/ru/articles/1109052/?utm_campaign=1109052&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html
 https://habr.com/ru/articles/1109410/?utm_campaign=1109410&utm_source=habrahabr&utm_medium=rss
+https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/
+https://www.anthropic.com/research/claude-black-hole-physics
+https://github.com/openjdk/jdk/pull/32781
+https://tproger.ru/news/codex-cli-poluchil-golosovye-zvonki-a-opencode-pochinil-kew-gpt-6
+https://habr.com/ru/companies/timeweb/articles/1108120/?utm_campaign=1108120&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+https://habr.com/ru/companies/ssp-soft/articles/1108260/?utm_campaign=1108260&utm_source=habrahabr&utm_medium=rss
