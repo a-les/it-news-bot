@@ -152,3 +152,9 @@ https://habr.com/ru/articles/1108054/?utm_campaign=1108054&utm_source=habrahabr&
 https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html
 https://habr.com/ru/companies/aenix/articles/1109118/?utm_campaign=1109118&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/companies/cloud_ru/articles/1108240/?utm_campaign=1108240&utm_source=habrahabr&utm_medium=rss
+https://alpo.ge/remark.pdf
+https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/
+https://tproger.ru/news/pravka-istorii-dialoga-sbrosit-rassuzhdeniya-gpt-6-2-v-api-openai
+https://habr.com/ru/articles/1110636/?utm_campaign=1110636&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html
+https://habr.com/ru/articles/1102578/?utm_campaign=1102578&utm_source=habrahabr&utm_medium=rss
