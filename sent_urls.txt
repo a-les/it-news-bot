@@ -146,3 +146,9 @@ https://tproger.ru/news/codex-cli-poluchil-golosovye-zvonki-a-opencode-pochinil-
 https://habr.com/ru/companies/timeweb/articles/1108120/?utm_campaign=1108120&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
 https://habr.com/ru/companies/ssp-soft/articles/1108260/?utm_campaign=1108260&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/ruvds/articles/1102692/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1102692
+https://tproger.ru/news/inkling-2-mini-ot-thinking-machines-zapuskaetsya-na-mac-s-32-gb-p
+https://habr.com/ru/articles/1108054/?utm_campaign=1108054&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html
+https://habr.com/ru/companies/aenix/articles/1109118/?utm_campaign=1109118&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/cloud_ru/articles/1108240/?utm_campaign=1108240&utm_source=habrahabr&utm_medium=rss
