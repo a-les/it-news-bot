@@ -163,3 +163,12 @@ https://tproger.ru/news/codex-cli-vklyuchil-novyj-interfejs-a-cline-cli-zapuskae
 https://habr.com/ru/articles/1110370/?utm_campaign=1110370&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html
 https://habr.com/ru/articles/1110122/?utm_campaign=1110122&utm_source=habrahabr&utm_medium=rss
+https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib
+https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+https://tproger.ru/news/adapter-pod-agenta-pi-podnyal-qwen3-8-27b-s-39-do-65-na-swe-benc
+https://habr.com/ru/companies/vasexperts/articles/1108560/?utm_campaign=1108560&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1109156/?utm_campaign=1109156&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/articles/1108678/?utm_campaign=1108678&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/cloud_ru/articles/1108360/?utm_campaign=1108360&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html
+https://habr.com/ru/articles/1110692/?utm_campaign=1110692&utm_source=habrahabr&utm_medium=rss
