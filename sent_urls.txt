@@ -158,3 +158,8 @@ https://tproger.ru/news/pravka-istorii-dialoga-sbrosit-rassuzhdeniya-gpt-6-2-v-a
 https://habr.com/ru/articles/1110636/?utm_campaign=1110636&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html
 https://habr.com/ru/articles/1102578/?utm_campaign=1102578&utm_source=habrahabr&utm_medium=rss
+https://thinkingmachines.ai/news/inkling-2-mini/
+https://tproger.ru/news/codex-cli-vklyuchil-novyj-interfejs-a-cline-cli-zapuskaet-zadachi
+https://habr.com/ru/articles/1110370/?utm_campaign=1110370&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html
+https://habr.com/ru/articles/1110122/?utm_campaign=1110122&utm_source=habrahabr&utm_medium=rss
