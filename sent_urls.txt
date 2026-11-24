@@ -190,3 +190,9 @@ https://habr.com/ru/companies/infostart/articles/1109326/?utm_campaign=1109326&u
 https://habr.com/ru/articles/1108972/?utm_campaign=1108972&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html
 https://habr.com/ru/companies/ru_mts/articles/1108716/?utm_campaign=1108716&utm_source=habrahabr&utm_medium=rss
+https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html
+https://ladybird.org/posts/alpha/
+https://tproger.ru/news/claude-ship-stal-proveryat-chinit-i-odobryat-pull-request-po-pr
+https://habr.com/ru/articles/1111226/?utm_campaign=1111226&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html
+https://habr.com/ru/articles/1110878/?utm_campaign=1110878&utm_source=habrahabr&utm_medium=rss
