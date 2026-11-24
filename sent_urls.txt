@@ -196,3 +196,9 @@ https://tproger.ru/news/claude-ship-stal-proveryat-chinit-i-odobryat-pull-reques
 https://habr.com/ru/articles/1111226/?utm_campaign=1111226&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html
 https://habr.com/ru/articles/1110878/?utm_campaign=1110878&utm_source=habrahabr&utm_medium=rss
+https://twitter.com/ylecun/status/2124550037912920090
+https://tproger.ru/news/aleph-alpha-otkryla-kolibri-1-1-no-llama-cpp-poka-ne-umeet-eyo-z
+https://habr.com/ru/articles/1111468/?utm_campaign=1111468&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html
+https://habr.com/ru/companies/piter/articles/1111244/?utm_campaign=1111244&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/sberbank/articles/1109772/?utm_campaign=1109772&utm_source=habrahabr&utm_medium=rss
