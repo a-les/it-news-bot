@@ -207,3 +207,10 @@ https://tproger.ru/articles/wpargalka-po-curl-v-2026-godu-s-proverennymi-primera
 https://habr.com/ru/companies/axel_pro/articles/1111330/?utm_campaign=1111330&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
 https://habr.com/ru/companies/k2tech/articles/1111826/?utm_campaign=1111826&utm_source=habrahabr&utm_medium=rss
+https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf
+https://tproger.ru/news/v-libreoffice-teper-nuzhno-razrewenie-chtoby-pisat-kod-s-pomoshh
+https://habr.com/ru/articles/1111986/?utm_campaign=1111986&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/sberbank/articles/1108806/?utm_campaign=1108806&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html
+https://habr.com/ru/companies/ruvds/articles/1110446/?utm_campaign=1110446&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/haulmont/articles/1111696/?utm_campaign=1111696&utm_source=habrahabr&utm_medium=rss
