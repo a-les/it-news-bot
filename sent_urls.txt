@@ -202,3 +202,8 @@ https://habr.com/ru/articles/1111468/?utm_campaign=1111468&utm_source=habrahabr&
 https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html
 https://habr.com/ru/companies/piter/articles/1111244/?utm_campaign=1111244&utm_source=habrahabr&utm_medium=rss
 https://habr.com/ru/companies/sberbank/articles/1109772/?utm_campaign=1109772&utm_source=habrahabr&utm_medium=rss
+https://fzakaria.com/2026/11/23/2035-came-early
+https://tproger.ru/articles/wpargalka-po-curl-v-2026-godu-s-proverennymi-primerami-zaprosov
+https://habr.com/ru/companies/axel_pro/articles/1111330/?utm_campaign=1111330&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html
+https://habr.com/ru/companies/k2tech/articles/1111826/?utm_campaign=1111826&utm_source=habrahabr&utm_medium=rss
