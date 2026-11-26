@@ -220,3 +220,9 @@ https://tproger.ru/news/openai-oprovergla-polinomialnuyu-gipotezu-hirwa-o-mnogog
 https://habr.com/ru/companies/infowatch/articles/1112336/?utm_campaign=1112336&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
 https://habr.com/ru/companies/timeweb/articles/1101040/?utm_campaign=1101040&utm_source=habrahabr&utm_medium=rss
+https://scottaaronson.blog/?p=10379
+https://1password.com/blog/update-on-nov-2026-security-incident
+https://tproger.ru/news/ii-agent-google-po-odnomu-promptu-zayavil-v-preprinte-teoremu-o-f
+https://habr.com/ru/articles/1112464/?utm_campaign=1112464&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html
+https://habr.com/ru/companies/kaspersky/articles/1112072/?utm_campaign=1112072&utm_source=habrahabr&utm_medium=rss
