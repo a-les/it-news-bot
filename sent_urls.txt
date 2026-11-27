@@ -226,3 +226,8 @@ https://tproger.ru/news/ii-agent-google-po-odnomu-promptu-zayavil-v-preprinte-te
 https://habr.com/ru/articles/1112464/?utm_campaign=1112464&utm_source=habrahabr&utm_medium=rss
 https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html
 https://habr.com/ru/companies/kaspersky/articles/1112072/?utm_campaign=1112072&utm_source=habrahabr&utm_medium=rss
+https://habr.com/ru/companies/sberbank/articles/1112118/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1112118
+https://tproger.ru/news/v-antigravity-cli-1-5-18-nawli-kod-otlozhennogo-sbrosa-kvoty
+https://habr.com/ru/companies/k2tech/articles/1112738/?utm_campaign=1112738&utm_source=habrahabr&utm_medium=rss
+https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html
+https://habr.com/ru/companies/domclick/articles/1111484/?utm_campaign=1111484&utm_source=habrahabr&utm_medium=rss
